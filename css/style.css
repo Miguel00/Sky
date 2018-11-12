@@ -4,6 +4,17 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+.font-weight{font-weight:bold!important;}
+.whatsapp{
+      background-color: #093;
+      border-radius: 65px;     
+      width: 172px;
+      text-align: center;
+      color: white!important;
+        }
+.nav-background{
+  background: rgba(0, 0, 0, 0.4)!important;
+}
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -3252,7 +3263,7 @@ input[type="button"].btn-block {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0.5rem 1rem; }
+  /* padding: 0.5rem 1rem; } */}
   .navbar > .container,
   .navbar > .container-fluid {
     display: -webkit-box;
@@ -7287,7 +7298,8 @@ h1, h2, h3, h4, h5,
   left: 0;
   right: 0;
   z-index: 3;
-  top: 10px; }
+  background: #ff5f5f!important;
+  height:60px!important;}
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
       background: #000 !important;
@@ -7944,7 +7956,7 @@ textarea.form-control {
 .ftco-footer {
   font-size: 16px;
   background: #2C2E3E;
-  padding: 8em 0; }
+  padding: 2em 0; }
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
     letter-spacing: .1em; }
